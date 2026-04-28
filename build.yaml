@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: mdbt50q_rx
+  - board: raytac_mdbt50q_rx
     shield: lily58_dongle
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
@@ -33,5 +33,5 @@ include:
   - board: nice_nano@2
     shield: settings_reset
 
-  - board: mdbt50q_rx
+  - board: raytac_mdbt50q_rx
     shield: settings_reset
