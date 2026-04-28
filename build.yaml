@@ -19,11 +19,19 @@
 #
 ---
 include:
-  - board: nice_nano//zmk@2
+  - board: mdbt50q_rx
+    shield: lily58_dongle
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
+
+  - board: nice_nano@2
     shield: lily58_left
 
-  - board: nice_nano//zmk@2
+  - board: nice_nano@2
     shield: lily58_right
 
   - board: nice_nano@2
+    shield: settings_reset
+
+  - board: mdbt50q_rx
     shield: settings_reset
