@@ -13,6 +13,6 @@ manifest:
       import: app/west.yml
     - name: zmk-component-raytac-dongle
       remote: rschenk
-      revision: v0.3
+      revision: v0.3 # <-- This module pinned to the same version as ZMK
   self:
     path: config
