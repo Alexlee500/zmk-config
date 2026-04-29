@@ -4,6 +4,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+      revision: ada1542940c3a01c0866c9fe9c30f489bc087328
     - name: rschenk
       url-base: https://github.com/rschenk
   projects:
