@@ -25,10 +25,10 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
 
   - board: nice_nano@2
-    shield: lily58_left
+    shield: lily58_left nice_view_adapter nice_view
 
   - board: nice_nano@2
-    shield: lily58_right
+    shield: lily58_right nice_view_adapter nice_view
 
   - board: nice_nano@2
     shield: settings_reset
