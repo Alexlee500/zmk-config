@@ -11,7 +11,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: ada1542940c3a01c0866c9fe9c30f489bc087328
+      revision: ac7f75b8591d39aaf3b66b9d26f26c9ed921a009
       import: app/west.yml
     - name: zmk-component-raytac-dongle
       remote: rschenk
