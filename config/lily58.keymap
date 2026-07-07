@@ -39,11 +39,11 @@
 // |       |     |     |      |      |      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&kp F12    &kp F1 &kp F2 &kp F3  &kp F4  &kp F5                       &kp F6    &kp F7    &kp F8    &kp F9   &kp F10   &kp F11
-&trans    &kp LA(Q) &trans  &kp LA(E)  &kp LA(R)                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &kp LA(F)  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &kp LA(Z) &kp LA(X) &kp LA(C)  &kp LA(V)  &kp LS(LBKT)    &kp LS(RBKT)   &trans    &trans      &trans    &trans    &trans   &trans    &trans
-                        &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
+&kp F12     &kp F1    &kp F2     &kp F3     &kp F4     &kp F5                                   &kp F6      &kp F7    &kp F8    &kp F9   &kp F10   &kp F11
+&trans      &kp LA(Q) &trans     &kp LA(E)  &kp LA(R)  &trans                                   &trans      &trans    &trans    &trans   &trans    &trans
+&trans      &trans    &trans     &trans     &kp LA(F)  &trans                                   &trans      &trans    &trans    &trans   &trans    &trans
+&trans      &kp LA(Z) &kp LA(X)  &kp LA(C)  &kp LA(V)  &trans   &kp LS(LBKT)    &kp LS(RBKT)    &trans      &trans    &trans    &trans   &trans    &trans
+                      &trans     &trans     &trans     &trans                                   &trans      &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
