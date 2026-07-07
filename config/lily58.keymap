@@ -58,9 +58,9 @@
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans 
-&trans    &trans &trans &trans  &trans  &trans                       &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans   &trans   &trans
+&trans    &trans &trans &trans  &trans  &trans                       &trans      &kp LS(EQUAL)   &kp EQUAL    &trans   &kp LS(BSLH)    &kp DEL
+&trans    &trans &trans &trans  &trans  &trans                       &kp LEFT    &kp DOWN  &kp UP    &kp RIGHT   &kp LS(GRAVE)    &kp GRAVE
+&trans    &trans &trans &trans  &trans  &trans    &kp LS(LBKT)   &kp LS(RBKT)    &trans      &trans    &trans    &trans   &kp BSLH   &trans
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
             >;
 
@@ -69,10 +69,10 @@
 
         fn_layer {
             bindings = <
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans   &trans   &trans
+&kp LC(LS(ESC))    &trans &trans &trans  &kp LA(F4)  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
+&trans    &trans &kp UP &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &kp LC(LA(DEL))
+&trans    &kp LEFT &kp DOWN &kp RIGHT  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
+&kp CAPS    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans   &trans   &trans
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
             >;
 
@@ -82,9 +82,9 @@
         super_layer {
             bindings = <
 &trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans    &trans   &trans   &trans
+&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &kp INS     &trans   &kp PSCRN    &trans
+&trans    &trans &trans &trans  &trans  &trans                       &kp HOME     &kp PG_DN    &kp PG_UP    &kp END   &trans    &trans
+&trans    &trans &trans &trans  &trans  &trans    &trans   &trans    &trans      &kp K_MUTE   &kp K_VOL_DN   &kp K_VOL_UP  &trans   &trans
                         &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
             >;
 
